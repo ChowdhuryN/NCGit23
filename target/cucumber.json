@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify search result is displayed",
+        "description": "",
+        "id": "this-feature-will-cover-the-search-field;verify-search-result-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 960963500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch Application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefClass.launch_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Laptop in Search Field",
+            "match": {
+              "location": "StepDefClass.enter_Laptop_in_Search_Field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Search button",
+            "match": {
+              "location": "StepDefClass.click_Search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify search result is displayed",
+            "match": {
+              "location": "StepDefClass.verify_search_result_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This Feature will cover the search field",
+    "description": "",
+    "id": "this-feature-will-cover-the-search-field",
+    "keyword": "Feature",
+    "uri": "DellSearch.feature"
+  }
+]
